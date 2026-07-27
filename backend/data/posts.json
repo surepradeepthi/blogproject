@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with JavaScript",
+    "content": "JavaScript is the language of the web. Whether you want to build websites, mobile apps, or even servers, JavaScript has you covered.\n\nStart with the basics: variables, functions, and loops. Once you understand these three concepts, you can build almost anything.\n\nThe best way to learn is by doing. Open your browser console right now and type: console.log('Hello, World!'). That's your first line of JavaScript!\n\nFrom there, move on to DOM manipulation — this is how JavaScript makes web pages interactive. Learn how to select elements, change their content, and respond to user clicks.\n\nRemember: every expert was once a beginner. Be patient with yourself and keep coding every day.",
+    "author": "Sarah Johnson",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&q=80",
+    "createdAt": "2025-01-15T08:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "Why React is So Popular",
+    "content": "React was created by Facebook in 2013 and has since become one of the most popular frontend libraries in the world. But why?\n\nThe answer is components. React lets you break your UI into small, reusable pieces. Instead of writing one giant HTML file, you write small components like Button, Navbar, or PostCard — and combine them like LEGO bricks.\n\nReact also introduced the Virtual DOM — a clever trick that makes UI updates extremely fast. Instead of re-rendering the whole page, React only updates the parts that changed.\n\nIf you're learning web development in 2025, React is absolutely worth your time. The job market loves it, the community is huge, and the concepts you learn will apply to other frameworks too.",
+    "author": "Mike Chen",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+    "createdAt": "2025-01-18T10:30:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Understanding REST APIs",
+    "content": "A REST API is how two applications talk to each other over the internet. When your React frontend wants data from your Node backend, it uses a REST API.\n\nThe four main operations are: GET (read data), POST (create data), PUT (update data), and DELETE (remove data). These map directly to CRUD — Create, Read, Update, Delete.\n\nIn this blog project, we use GET /posts to fetch all posts, POST /posts to create one, and DELETE /posts/:id to remove one.\n\nWhen you call an API, you get back a response with a status code. 200 means success, 201 means created, 400 means bad request, and 404 means not found.\n\nUnderstanding REST APIs is essential for any full stack developer. Practice by building small APIs and testing them.",
+    "author": "Priya Patel",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    "createdAt": "2025-01-20T14:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "What is Redux and Why Use It?",
+    "content": "Imagine your React app has 20 components and they all need to share the same user login information. Passing that data through props from parent to child to grandchild would be a nightmare.\n\nRedux solves this. It creates a single global store — think of it as a JavaScript object that every component can read from and write to.\n\nRedux Toolkit makes this even easier. Instead of writing complex boilerplate code, you create simple slices with actions and reducers in one place.\n\nIn this project, we have two slices: authSlice (handles login state) and postSlice (handles blog posts). Any component can access this data using useSelector, and update it using useDispatch.\n\nRedux might feel complex at first, but once it clicks, you'll wonder how you ever managed without it.",
+    "author": "David Kim",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
+    "createdAt": "2025-01-22T09:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "Node.js for Beginners",
+    "content": "Node.js lets you run JavaScript outside the browser. Before Node.js, JavaScript could only live in web browsers. Now it can run on servers, build command-line tools, and power entire backends.\n\nNode.js is built on Chrome's V8 engine, which makes it very fast. It's also non-blocking — meaning it can handle many requests at the same time without waiting.\n\nIn this blog project, we use Node.js with the built-in http module to create a server. No Express, no frameworks — just pure Node. This is a great way to understand what frameworks like Express are actually doing under the hood.\n\nOnce you understand raw Node.js, learning Express becomes much easier because you already know the fundamentals.",
+    "author": "Lisa Wang",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "createdAt": "2025-01-25T11:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "CSS Tips Every Developer Should Know",
+    "content": "CSS is more powerful than most developers give it credit for. Here are tips that will instantly improve your styling skills.\n\nFirst, use CSS variables. Instead of repeating the same color code everywhere, define it once: --primary: #e74c3c and use it everywhere. Changing your theme becomes a one-line edit.\n\nSecond, learn Flexbox. It solves 90% of layout problems. Use display: flex with justify-content and align-items to center anything.\n\nThird, understand the box model. Every element has content, padding, border, and margin. Use box-sizing: border-box to make sizing predictable.\n\nFourth, use transitions for smooth hover effects. A simple transition: all 0.2s ease makes your UI feel polished and professional.\n\nPractice these four things and your CSS will improve dramatically.",
+    "author": "Tom Martinez",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    "createdAt": "2025-01-28T16:00:00.000Z"
+  },
+  {
+    "id": "7",
+    "title": "How the Internet Actually Works",
+    "content": "When you type google.com in your browser, what actually happens?\n\nFirst, your browser asks a DNS server to translate google.com into an IP address — something like 142.250.80.46. DNS is like the phone book of the internet.\n\nThen your browser sends an HTTP request to that IP address. The server receives the request, processes it, and sends back an HTTP response with the HTML, CSS, and JavaScript files.\n\nYour browser then parses those files and renders the page you see.\n\nThis whole process — DNS lookup, TCP connection, HTTP request, server response, browser render — happens in under a second for most websites.\n\nUnderstanding this flow helps you become a better developer. When something breaks, you know exactly where to look.",
+    "author": "Sarah Johnson",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80",
+    "createdAt": "2025-02-01T08:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "title": "Git and GitHub: A Beginner's Guide",
+    "content": "Git is a version control system. It tracks every change you make to your code, so you can go back in time if something breaks.\n\nThe three commands you'll use 90% of the time: git add (stage changes), git commit (save a snapshot), git push (upload to GitHub).\n\nGitHub is a website that hosts your Git repositories online. It's where developers share code, collaborate on projects, and build their portfolio.\n\nCreate a GitHub account today and push this blog project to it. Future employers will look at your GitHub to see what you've built.\n\nAlso learn branching. A branch lets you work on a new feature without touching the main code. When it's ready, you merge it back in. This is how professional teams work.",
+    "author": "Priya Patel",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&q=80",
+    "createdAt": "2025-02-05T13:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "title": "Building Your First Full Stack App",
+    "content": "Congratulations on reaching full stack development! This is a huge milestone. Let's recap what full stack actually means.\n\nThe frontend is everything the user sees — HTML, CSS, and JavaScript running in the browser. The backend is the server — Node.js processing requests and returning data. The database is where data is permanently stored.\n\nIn this project, you've built all three layers: a React frontend, a Node.js backend, and JSON file storage.\n\nReal-world apps use databases like PostgreSQL or MongoDB instead of JSON files. But the concepts are identical — read data, write data, send it to the frontend.\n\nYour next steps: add a real database, deploy to the cloud (try Railway for the backend and Vercel for the frontend), and share your project with the world!",
+    "author": "Mike Chen",
+    "authorId": "seed",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+    "createdAt": "2025-02-10T10:00:00.000Z"
+  },
+  {
+    "id": "1774850921955",
+    "title": "virat kohli",
+    "content": "He soon joined the senior Men in Blue in Sri Lanka, come August 2008. In the absence of the regular openers, Virat Kohli was given a chance to open the batting in the ODI series. He played some commendable knocks in his extended run as an opener, as India went on to win the ODI series. However, the established and formidable pair of Tendulkar and Sehwag kept Kohli out of the team\n\nThe 20-year-old continued to impress for Delhi and dominated attacks, clearly demonstrating that he belonged at a much higher level; that junior cricket was beneath his standards. Kohli then traveled to Australia in 2009 for the Emerging players tournament and stamped his authority all over the bowling attacks. He added 'big-match temperament' to his résumé too, lacing a fluent hundred in the final against South Africa, and guiding his team to a clinical victory. The young prodigy, barely old enough to receive his man-of-the-match champagne, ended the tournament with 398 runs from 7 outings with two centuries and two fifties, ensuring that he remained fresh in the selectors' minds.\n",
+    "author": "pradeepthi",
+    "authorId": "1774850779882",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHkz-CtfvMGgRgdHNQsxEMfsV37rycmXyYn4jbyBlVnEZZ-edxrgDlTl1Rbfo6teEkc2zsRuzlDUSc71RWUp5JtoegBcvnZPuUMwRmkDw&s=10",
+    "createdAt": "2026-03-30T06:08:41.955Z"
+  }
+]
